@@ -26,6 +26,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 bindkey -v
 bindkey '^R' history-incremental-search-backward
+bindkey '^ ' autosuggest-accept
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select {
