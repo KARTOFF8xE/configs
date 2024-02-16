@@ -5,7 +5,7 @@ apt install zsh -y
 apt install exa -y
 apt install curl -y
 ## get .zshrc
-wget https://raw.githubusercontent.com/KARTOFF8xE/configs/main/.zshrc
+wget https://raw.githubusercontent.com/KARTOFF8xE/configs/main/zsh/.zshrc
 ## get vivid-Repo
 wget "https://github.com/sharkdp/vivid/releases/download/v0.8.0/vivid_0.8.0_amd64.deb"
 dpkg -i vivid_0.8.0_amd64.deb
