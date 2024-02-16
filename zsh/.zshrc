@@ -72,6 +72,7 @@ alias ll='ls -alF'
 
 source ~/.zsh_scripts/chromatic-zsh/chromatic-zsh.zsh
 source ~/.zsh_scripts/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh_scripts/plugins/zsh-autosuggestions/git.plugin.zsh
 export LS_COLORS="$(vivid -m 8-bit generate snazzy)"
 
 export PATH="$PATH:/home/yannik/.cargo/bin"
