@@ -13,6 +13,8 @@ set -e
 user=${1}
 cd /home/$user
 ## install packages
+apt update --fix-missing
+apt install git -y
 apt install zsh -y
 apt install exa -y
 apt install curl -y
@@ -34,4 +36,5 @@ mkdir -p /home/$user/.cache/zsh
 touch /home/$user/.cache/zsh/history
 ## change login shell
 chsh $user -s $(which zsh)
+echo "zsh" >> .bashrc
 zsh
